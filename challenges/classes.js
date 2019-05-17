@@ -9,10 +9,10 @@ class CuboidMaker {
 
     }
     volume() {
-        return `${this.length} * ${this.width} * ${this.height}`
+        return this.length * this.width * this.height
     }
     surfaceArea() {
-        return `2 * ${this.length} * ${this.width} * ${this.height}`
+        return 2 * this.length * this.width * this.height
     }
 }
 
